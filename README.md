@@ -89,5 +89,42 @@ python -m meme_filter.models.siamese --mode eval --weights models/siamese_weight
 
 ---
 
+## 🔖 Citation
+
+If you use this repository, code, or models in your research, please cite the following papers:
+
+> **Chhavi Sharma**, Viswanath Pulabaigari, and Amitava Das.  
+> *Meme vs. Non-meme Classification using Visuo-linguistic Association.*  
+> *Proceedings of the International Conference on Web Information Systems and Technologies (WEBIST), 2020.*  
+> [[Paper Link]](https://api.semanticscholar.org/CorpusID:227129761)
+
+and
+
+> **Chhavi Sharma** and Viswanath Pulabaigari.  
+> *A Curious Case of Meme Detection: An Investigative Study.*  
+> *Proceedings of the International Conference on Web Information Systems and Technologies (WEBIST), 2020.*  
+> [[Paper Link]](https://api.semanticscholar.org/CorpusID:227130046)
+
+#### 📚 BibTeX
+
+```bibtex
+@inproceedings{Sharma2020MemeVN,
+  title={Meme vs. Non-meme Classification using Visuo-linguistic Association},
+  author={Chhavi Sharma and Viswanath Pulabaigari and Amitava Das},
+  booktitle={International Conference on Web Information Systems and Technologies},
+  year={2020},
+  url={https://api.semanticscholar.org/CorpusID:227129761}
+}
+
+@inproceedings{Sharma2020ACC,
+  title={A Curious Case of Meme Detection: An Investigative Study},
+  author={Chhavi Sharma and Viswanath Pulabaigari},
+  booktitle={International Conference on Web Information Systems and Technologies},
+  year={2020},
+  url={https://api.semanticscholar.org/CorpusID:227130046}
+}
+```
+---
+
 ## 🪪 License
-MIT License © 2025 Chhavi Sharma
+MIT License © 2020 Chhavi Sharma
