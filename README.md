@@ -42,10 +42,7 @@ source .venv/bin/activate
 ```
 
 ### 2️⃣ Install dependencies
-```bash
-pip install -e .
-```
-or manually:
+Manually:
 ```bash
 pip install numpy scikit-learn opencv-python pillow torch
 ```
@@ -57,22 +54,9 @@ pip install numpy scikit-learn opencv-python pillow torch
 ### Feature Extraction
 Run individual feature extractors:
 ```bash
-python -m meme_filter.features.lbp --input <path_to_image>
-python -m meme_filter.features.sift --input <path_to_image>
+meme_filter.features.lbp.py
+meme_filter.features.sift.py
 ```
-
-### Model Evaluation
-Evaluate meme/non-meme classifier:
-```bash
-python -m meme_filter.models.cca --test_data <path_to_data>
-```
-
-Siamese network example:
-```bash
-python -m meme_filter.models.siamese --mode eval --weights models/siamese_weights.pt
-```
-
----
 
 ## 🧩 Features
 - Classical handcrafted feature-based meme detection
